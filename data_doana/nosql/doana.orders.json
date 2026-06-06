@@ -1,0 +1,951 @@
+[{
+  "_id": {
+    "$oid": "6926ae769551800e65a62fce"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "completed",
+  "payment_method": "COD",
+  "total_amount": 75000000,
+  "shipping_address": "34563465",
+  "orderDetails": [
+    {
+      "product_id": "8068ea5a-c357-410a-b075-7ed2fa1f6231",
+      "product_name": "Nhan kim cuong hot xoang",
+      "quantity": 1,
+      "unit_price": 80000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "c8f69002-c0e5-4efc-aa39-68e71c98c91e",
+  "order_date": {
+    "$date": "2025-11-26T07:38:30.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926b137812e21a74c1a0b5b"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "created",
+  "payment_method": "QRCode",
+  "total_amount": 75000000,
+  "shipping_address": "khgkg",
+  "orderDetails": [
+    {
+      "product_id": "8068ea5a-c357-410a-b075-7ed2fa1f6231",
+      "product_name": "Nhan kim cuong hot xoang",
+      "quantity": 1,
+      "unit_price": 80000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "87703538-b8e3-45ad-99d0-1f04106aa75d",
+  "order_date": {
+    "$date": "2025-11-26T07:50:15.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926b1b9812e21a74c1a0b62"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "cancelled",
+  "payment_method": "QRCode",
+  "total_amount": 75000000,
+  "shipping_address": "lukjhgfbd",
+  "orderDetails": [
+    {
+      "product_id": "8068ea5a-c357-410a-b075-7ed2fa1f6231",
+      "product_name": "Nhan kim cuong hot xoang",
+      "quantity": 1,
+      "unit_price": 80000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "da2c4c4f-3220-45df-8330-4ec969f5445a",
+  "order_date": {
+    "$date": "2025-11-26T07:52:25.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926cd92e745d88af483e408"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "created",
+  "payment_method": "CreditCard",
+  "total_amount": 225000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "8068ea5a-c357-410a-b075-7ed2fa1f6231",
+      "product_name": "Nhan kim cuong hot xoang",
+      "quantity": 3,
+      "unit_price": 80000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "40513267-33ab-41c4-8fe9-3afdfa333d71",
+  "order_date": {
+    "$date": "2025-11-01T09:51:14.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926cde4e745d88af483e40d"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 5800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "581346d3-30c3-4905-b968-8c27aacbe8c0",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 2,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "44fff54e-2587-46b8-b5b6-964621ab7d09",
+  "order_date": {
+    "$date": "2025-11-08T09:52:36.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d863d259ab0746d5263c"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 20000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "6457d39d-0933-477b-bdf7-f11f1ff83868",
+      "product_name": "nhan vang hong",
+      "quantity": 1,
+      "unit_price": 22000000,
+      "discount": 2000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "384ac8ad-677e-4e21-82b7-0b9fbfa880f7",
+  "order_date": {
+    "$date": "2025-01-30T10:37:23.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d8c8d259ab0746d52647"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 9760000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "41f1426c-2b60-4ac7-b99c-ccdea67f9d6c",
+      "product_name": "Vong tay vang sieu vang",
+      "quantity": 2,
+      "unit_price": 5000000,
+      "discount": 120000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "d9eb69be-7d18-40bf-ac9c-7a2a3d59c645",
+  "order_date": {
+    "$date": "2025-11-21T10:39:04.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d90ad259ab0746d5264f"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 2900000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "d918cbe8-83ac-45fd-b4e3-dcc6f554df16",
+      "product_name": "nhan vang",
+      "quantity": 1,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "91a16eb4-eaad-4c10-b0c0-8434461f7ee6",
+  "order_date": {
+    "$date": "2026-01-26T10:40:10.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d93bd259ab0746d52657"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 10900000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "bcaec108-25d1-4c1f-a6ef-e84eec3dd243",
+      "product_name": "nhan cuoi vang cong",
+      "quantity": 1,
+      "unit_price": 11000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "d72d0d41-06f3-403d-933e-66282bd2b63c",
+  "order_date": {
+    "$date": "2026-01-16T11:40:59.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d978d259ab0746d5265f"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 2900000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a9f42dfd-8cd1-4008-a8df-7fd9174d3d6b",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 1,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "e22db465-212e-484a-a367-c2e308aa7da3",
+  "order_date": {
+    "$date": "2026-10-11T11:42:00.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926d9ced259ab0746d52667"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 56500000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "65dbbaf9-9d90-49ca-9575-b7285d676914",
+      "product_name": "nhan dinh kim cuong",
+      "quantity": 1,
+      "unit_price": 58000000,
+      "discount": 1500000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "19b15dd6-213f-43a1-9b52-5dcad3f9e7ac",
+  "order_date": {
+    "$date": "2025-10-02T12:43:26.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926da0cd259ab0746d52670"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 43600000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "bcaec108-25d1-4c1f-a6ef-e84eec3dd243",
+      "product_name": "nhan cuoi vang cong",
+      "quantity": 4,
+      "unit_price": 11000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "446633d6-553f-4df9-8719-e816b1b4d2f2",
+  "order_date": {
+    "$date": "2025-11-30T13:44:28.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926dabfd259ab0746d52679"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 14500000,
+  "shipping_address": "123 abcvhg",
+  "orderDetails": [
+    {
+      "product_id": "d918cbe8-83ac-45fd-b4e3-dcc6f554df16",
+      "product_name": "nhan vang",
+      "quantity": 5,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "b2bee458-53ad-4370-9346-19109723f9a8",
+  "order_date": {
+    "$date": "2025-01-01T15:47:27.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926db0bd259ab0746d52682"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 11600000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a9f42dfd-8cd1-4008-a8df-7fd9174d3d6b",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 4,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "1d4d147f-f0f4-4a79-880a-d2f1f3b4151c",
+  "order_date": "2025-11-15T16:48:43.153+00:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926dbc6d259ab0746d5268b"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 11600000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a9f42dfd-8cd1-4008-a8df-7fd9174d3d6b",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 4,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "f8ab19e9-1c64-4449-a7fc-0756f4691886",
+  "order_date": {
+    "$date": "2025-11-06T18:51:50.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926efefa2f2691b24083c7e"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 5800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a9f42dfd-8cd1-4008-a8df-7fd9174d3d6b",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 2,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "bfd4f6ec-28fd-41ea-8685-007e015754f7",
+  "order_date": {
+    "$date": "2025-11-14T12:17:51.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f047a2f2691b24083c87"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 2900000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a9f42dfd-8cd1-4008-a8df-7fd9174d3d6b",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 1,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "dd060604-65ae-481c-8400-da0de6ed8bfb",
+  "order_date": {
+    "$date": "2025-11-25T12:19:19.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f073a2f2691b24083c90"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 21800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "bcaec108-25d1-4c1f-a6ef-e84eec3dd243",
+      "product_name": "nhan cuoi vang cong",
+      "quantity": 2,
+      "unit_price": 11000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "50d74de7-ba6c-4e9f-a86e-d5ef37a23260",
+  "order_date": {
+    "$date": "2025-11-23T12:20:03.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f120a2f2691b24083c9c"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 32700000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "bcaec108-25d1-4c1f-a6ef-e84eec3dd243",
+      "product_name": "nhan cuoi vang cong",
+      "quantity": 3,
+      "unit_price": 11000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "1b427df6-acdc-452e-992f-9a748df24661",
+  "order_date": {
+    "$date": "2025-11-26T11:22:56.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f162a2f2691b24083ca5"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 29000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "d918cbe8-83ac-45fd-b4e3-dcc6f554df16",
+      "product_name": "nhan vang",
+      "quantity": 10,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "b4a58ed2-10c5-4b8c-ae7a-5aca800e5555",
+  "order_date": {
+    "$date": "2025-11-26T14:24:02.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f194a2f2691b24083cad"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 92340000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "30a88187-4fc0-4755-97ea-edea32afb535",
+      "product_name": "nhan vang trang 2 mau",
+      "quantity": 3,
+      "unit_price": 31000000,
+      "discount": 220000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "dfe912c1-cbb8-4548-8135-9994e246ad26",
+  "order_date": {
+    "$date": "2025-11-26T21:24:52.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f1e2a2f2691b24083cba"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 5800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "581346d3-30c3-4905-b968-8c27aacbe8c0",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 2,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "16e5a1b8-0005-4117-b909-34ea904f9fc0",
+  "order_date": {
+    "$date": "2025-11-26T05:26:10.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f21ea2f2691b24083cc2"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 23800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+      "product_name": "bong tai trai tim",
+      "quantity": 2,
+      "unit_price": 12000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "0995fe6b-d9a5-4e57-96d4-4b66cf85b0f4",
+  "order_date": {
+    "$date": "2025-03-26T22:27:10.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f31ea2f2691b24083ccc"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 16000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "6a2589c8-8f96-4c82-9445-34a71da3161f",
+      "product_name": "day chuyen bong hoa",
+      "quantity": 2,
+      "unit_price": 13000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "df010cdc-e55f-480c-8f53-25f1d2f8536a",
+  "order_date": {
+    "$date": "2025-05-26T20:31:26.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f356a2f2691b24083cd5"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 9760000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "41f1426c-2b60-4ac7-b99c-ccdea67f9d6c",
+      "product_name": "Vong tay vang sieu vang",
+      "quantity": 2,
+      "unit_price": 5000000,
+      "discount": 120000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "78247017-6bc7-4686-88b8-2a1f6f062f68",
+  "order_date": {
+    "$date": "2025-08-26T12:32:22.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f5f1a2f2691b24083cf0"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 5800000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "581346d3-30c3-4905-b968-8c27aacbe8c0",
+      "product_name": "Nhan kim cuongw2",
+      "quantity": 2,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "267fb58d-caa3-4a1d-99dd-f669f7d73bde",
+  "order_date": {
+    "$date": "2025-11-26T12:43:29.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692bfe891c369a4161f0ad52"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "created",
+  "payment_method": "COD",
+  "total_amount": 2900000,
+  "shipping_address": "fbfdefe",
+  "orderDetails": [
+    {
+      "product_id": "d918cbe8-83ac-45fd-b4e3-dcc6f554df16",
+      "product_name": "nhan vang",
+      "quantity": 1,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "1922d440-14f9-42f1-b43f-e10c54bb0b8e",
+  "order_date": {
+    "$date": "2025-11-30T08:21:29.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6943eb3a566ebdf365657c95"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "created",
+  "payment_method": "QRCode",
+  "total_amount": 9500000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "66e60e9b-ee50-49e9-86f2-55b0b499ff95",
+      "product_name": "bong tai kim cuong",
+      "quantity": 1,
+      "unit_price": 7500000,
+      "discount": 5000000
+    },
+    {
+      "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+      "product_name": "bong tai trai tim",
+      "quantity": 1,
+      "unit_price": 12000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "8986ee94-5135-4bd1-b2af-594999cfc088",
+  "order_date": {
+    "$date": "2025-12-18T11:53:30.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6943ebbb566ebdf365657c9e"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "created",
+  "payment_method": "QRCode",
+  "total_amount": 7000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+      "product_name": "bong tai trai tim",
+      "quantity": 1,
+      "unit_price": 12000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "555a1ca5-2357-443e-8de9-e884e45a84d0",
+  "order_date": {
+    "$date": "2025-12-18T11:55:39.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6943ee19566ebdf365657ca8"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "QRCode",
+  "total_amount": 8000000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "6a2589c8-8f96-4c82-9445-34a71da3161f",
+      "product_name": "day chuyen bong hoa",
+      "quantity": 1,
+      "unit_price": 13000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "e0498abc-a2f8-4998-b852-594055d6a176",
+  "order_date": {
+    "$date": "2025-12-18T12:05:45.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6943ee86566ebdf365657cb9"
+  },
+  "user_id": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "status": "paid",
+  "payment_method": "QRCode",
+  "total_amount": 7000000,
+  "shipping_address": "efdsgf",
+  "orderDetails": [
+    {
+      "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+      "product_name": "bong tai trai tim",
+      "quantity": 1,
+      "unit_price": 12000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "0f0309a3-ae47-4ce3-bba7-d5efaa97b89b",
+  "order_date": {
+    "$date": "2025-12-18T12:07:34.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69597365e0d12afd6a0aa8b2"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "created",
+  "payment_method": "CreditCard",
+  "total_amount": 2900000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "288367f5-fd95-4370-8971-5179beaae24e",
+      "product_name": "Nhẫn kim cương",
+      "quantity": 1,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "f90d75e6-af5b-48c9-8769-39dcee2c5109",
+  "order_date": {
+    "$date": "2026-01-03T19:52:05.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695cbbf6b565c6f178d8962e"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 71060000,
+  "shipping_address": "jhkgjhfjg",
+  "orderDetails": [
+    {
+      "product_id": "66e60e9b-ee50-49e9-86f2-55b0b499ff95",
+      "product_name": "bông tai kim cương",
+      "quantity": 1,
+      "unit_price": 7500000,
+      "discount": 5000000
+    },
+    {
+      "product_id": "30a88187-4fc0-4755-97ea-edea32afb535",
+      "product_name": "nhẫn vàng trắng",
+      "quantity": 2,
+      "unit_price": 31000000,
+      "discount": 220000
+    },
+    {
+      "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+      "product_name": "bông tai trái tim",
+      "quantity": 1,
+      "unit_price": 12000000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "5ebbea21-cae1-47b7-aa80-53b7a821ddcc",
+  "order_date": {
+    "$date": "2026-01-06T07:38:30.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d0bdfb6e1e262d6e9576d"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "created",
+  "payment_method": "CreditCard",
+  "total_amount": 64060000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "30a88187-4fc0-4755-97ea-edea32afb535",
+      "product_name": "nhẫn vàng trắng",
+      "quantity": 2,
+      "unit_price": 31000000,
+      "discount": 220000
+    },
+    {
+      "product_id": "66e60e9b-ee50-49e9-86f2-55b0b499ff95",
+      "product_name": "bông tai kim cương",
+      "quantity": 1,
+      "unit_price": 7500000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": false,
+  "order_id": "65b47c18-8cae-4b66-aaf5-1cf76fba7b4e",
+  "order_date": {
+    "$date": "2026-01-06T13:19:27.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d0c91b6e1e262d6e95780"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 19790000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "51770a7c-fcc6-4bae-b36e-e93592690e7c",
+      "product_name": "nhẫn cưới vàng 18k",
+      "quantity": 1,
+      "unit_price": 20790000,
+      "discount": 1000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "e198eecf-c37f-450b-b3d6-0463051b5f18",
+  "order_date": {
+    "$date": "2026-01-06T13:22:25.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695dc83c33a772dab639be85"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "status": "paid",
+  "payment_method": "QRCode",
+  "total_amount": 2500000,
+  "shipping_address": "123 abc",
+  "orderDetails": [
+    {
+      "product_id": "66e60e9b-ee50-49e9-86f2-55b0b499ff95",
+      "product_name": "bông tai kim cương",
+      "quantity": 1,
+      "unit_price": 7500000,
+      "discount": 5000000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "36617bde-f7a8-42a3-8812-ea46b91d447f",
+  "order_date": {
+    "$date": "2026-01-07T02:43:08.304Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695dd3ce33a772dab639beb7"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "status": "paid",
+  "payment_method": "CreditCard",
+  "total_amount": 37700000,
+  "shipping_address": "435",
+  "orderDetails": [
+    {
+      "product_id": "288367f5-fd95-4370-8971-5179beaae24e",
+      "product_name": "Nhẫn kim cương",
+      "quantity": 13,
+      "unit_price": 3000000,
+      "discount": 100000
+    }
+  ],
+  "isPaid": true,
+  "order_id": "60fedbd4-8b42-4700-90e3-4d8185e2cfec",
+  "order_date": {
+    "$date": "2026-01-07T03:32:30.463Z"
+  },
+  "__v": 0
+}]

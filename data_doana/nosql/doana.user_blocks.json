@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "693a468d8e5cdb96908f81bd"
+  },
+  "user_id": "cd2e367c-1929-453e-b393-4149f4e02a28",
+  "__v": 0,
+  "avatar": null,
+  "createdAt": {
+    "$date": "2025-12-11T04:20:29.914Z"
+  },
+  "email": "toi@gmail.com",
+  "isBlock": false,
+  "name": "User",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:17.536Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a47658e5cdb96908f81be"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/dihqq66r4/image/upload/v1763883874/tierra/avatars/dmxhw1zhgaednasmrkdq.jpg",
+  "createdAt": {
+    "$date": "2025-12-11T04:24:05.141Z"
+  },
+  "email": "loi@gmail.com",
+  "isBlock": false,
+  "name": "Loi",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:18.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a4ad68e5cdb96908f81bf"
+  },
+  "user_id": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "__v": 0,
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJBH7YS6TVoyCmTs1R8ZhuyB7RZL66HNhK0Z3UMa89p2Pt1wg=s96-c",
+  "createdAt": {
+    "$date": "2025-12-11T04:38:46.487Z"
+  },
+  "email": "trinhhuuloi098@gmail.com",
+  "isBlock": false,
+  "name": "loi trinh",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:19.008Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a4ad88e5cdb96908f81c0"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/dihqq66r4/image/upload/v1764141839/tierra/avatars/gwz6svz96tlm3slubtih.jpg",
+  "createdAt": {
+    "$date": "2025-12-11T04:38:48.089Z"
+  },
+  "email": "loi.th06409@sinhvien.hoasen.edu.vn",
+  "isBlock": false,
+  "name": "Lợi Trịnh Hữu",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:19.543Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a4ada8e5cdb96908f81c1"
+  },
+  "user_id": "3093df47-292a-4090-94a6-8991f6224df4",
+  "__v": 0,
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKndXHIt4PetblCZuNm0jsFPBjduDgpht15xqQ5qHTPTCxuvQ=s96-c",
+  "createdAt": {
+    "$date": "2025-12-11T04:38:50.097Z"
+  },
+  "email": "vazy454@gmail.com",
+  "isBlock": false,
+  "name": "Hải Lê Đăng Nguyễn Minh",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:19.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a4ada8e5cdb96908f81c2"
+  },
+  "user_id": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "__v": 0,
+  "avatar": null,
+  "createdAt": {
+    "$date": "2025-12-11T04:38:50.788Z"
+  },
+  "email": "admin@gmail.com",
+  "isBlock": false,
+  "name": "admin",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:20.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a4adb8e5cdb96908f81c3"
+  },
+  "user_id": "dc99f267-f053-4bd7-bc58-e4f1d1e9d141",
+  "__v": 0,
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK0p9rmjyqyQqB1PLmAsEoBKYky3nVfgTtZpjjtcyRSTZFX4Q=s96-c",
+  "createdAt": {
+    "$date": "2025-12-11T04:38:51.487Z"
+  },
+  "email": "haiminh454@yahoo.com",
+  "isBlock": false,
+  "name": "hải lê",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:20.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a6b078e5cdb96908f81c4"
+  },
+  "user_id": "04248778-75ef-4ebc-a708-43f2696af8cf",
+  "__v": 0,
+  "avatar": null,
+  "createdAt": {
+    "$date": "2025-12-11T06:56:07.023Z"
+  },
+  "email": "duong@gmail.com",
+  "isBlock": false,
+  "name": "User",
+  "updatedAt": {
+    "$date": "2025-12-11T06:57:21.325Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693a6b408e5cdb96908f81c5"
+  },
+  "user_id": "1decf6b7-43c4-4e4f-b3d4-fdff272bc6a9",
+  "__v": 0,
+  "avatar": null,
+  "createdAt": {
+    "$date": "2025-12-11T06:57:04.756Z"
+  },
+  "email": "hai@gmail.com",
+  "isBlock": true,
+  "name": "User",
+  "updatedAt": {
+    "$date": "2025-12-11T06:59:58.268Z"
+  }
+}]

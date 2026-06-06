@@ -1,0 +1,49 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+.env.*
+
+# Docker
+docker-compose.yml
+.dockerignore
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Coverage
+coverage
+
+# Tests
+test
+tests
+__tests__
+
+# Build
+dist
+build
+
+# Temporary
+tmp
+temp
+
+# Uploads (nếu không muốn copy file upload vào image)
+uploads
+
+# Documentation
+README.md

@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6910d8779e12370cc0803c1f"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "user_name": "User",
+  "product_id": "30a88187-4fc0-4755-97ea-edea32afb535",
+  "rating": 3,
+  "comment": "tuyet voi",
+  "review_id": "c25293bb-c6a2-4252-98b0-bdcc847b0cbc",
+  "created_at": {
+    "$date": "2025-11-09T18:07:51.494Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-09T18:07:51.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6910fc04202868a0a6affed6"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "user_name": "Lợi Trịnh Hữu",
+  "product_id": "30a88187-4fc0-4755-97ea-edea32afb535",
+  "rating": 4,
+  "comment": "perfect",
+  "review_id": "56dde1c0-883c-4f6b-a05f-40329a8b754b",
+  "created_at": {
+    "$date": "2025-11-09T20:39:32.778Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-09T20:39:32.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691332a9a220d3d9b9ab810f"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "user_name": "Lợi Trịnh Hữu",
+  "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+  "rating": 1,
+  "comment": "te vai",
+  "review_id": "b49887e5-54e7-4dc0-9c4c-2d6737eff323",
+  "created_at": {
+    "$date": "2025-11-11T12:57:13.579Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-11T12:57:13.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69134a19a220d3d9b9ab81b1"
+  },
+  "user_id": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "user_name": "Lợi Trịnh Hữu",
+  "product_id": "6a2589c8-8f96-4c82-9445-34a71da3161f",
+  "rating": 3,
+  "comment": "sdfsd",
+  "review_id": "a1c2a37c-0f77-4880-8371-a87c4e53bb5a",
+  "created_at": {
+    "$date": "2025-11-11T14:37:13.421Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-11T14:37:13.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69143e6fb1210aa02d5cab64"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "user_name": "User",
+  "product_id": "a64b4565-ed75-4654-af69-19cfcaf48514",
+  "rating": 4,
+  "comment": "ok",
+  "review_id": "dfed0995-974e-40c2-9687-070b46457212",
+  "created_at": {
+    "$date": "2025-11-12T07:59:43.154Z"
+  },
+  "updated_at": {
+    "$date": "2025-11-12T07:59:43.154Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,284 @@
+[{
+  "_id": {
+    "$oid": "69314230eb96d171138a5f19"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "hello shop toi can tu van",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:11:41.315Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:11:28.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:11:41.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931423aeb96d171138a5f1d"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "asdasd",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:11:41.315Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:11:38.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:11:41.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69314251eb96d171138a5f26"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "senderRole": "admin",
+  "text": "ban can tu van gi",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:12:01.273Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:01.259Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:12:01.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931426feb96d171138a5f32"
+  },
+  "conversation": {
+    "$oid": "69312f258f01293764f5fb2a"
+  },
+  "sender": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "senderRole": "user",
+  "text": "aaaa",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:36.841Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:31.609Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:36.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69314274eb96d171138a5f36"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "aaa",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:29.297Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:36.918Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:29.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69314276eb96d171138a5f3a"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "sdasda",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:29.297Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:38.253Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:29.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931427aeb96d171138a5f43"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "asdasd",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:29.297Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:42.692Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:29.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931427beb96d171138a5f47"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "asdas",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:29.297Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:43.235Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:29.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931427ceb96d171138a5f4b"
+  },
+  "conversation": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "sender": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "senderRole": "user",
+  "text": "asdasd",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:29.297Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:12:44.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:29.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693142a2eb96d171138a5f54"
+  },
+  "conversation": {
+    "$oid": "69312f258f01293764f5fb2a"
+  },
+  "sender": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "senderRole": "user",
+  "text": "a",
+  "isRead": true,
+  "readAt": {
+    "$date": "2025-12-04T08:13:36.841Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T08:13:22.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T08:13:36.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695dd91333a772dab639bee4"
+  },
+  "conversation": {
+    "$oid": "693142788f01293764f5fb2c"
+  },
+  "sender": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "senderRole": "user",
+  "text": "toi can tu van",
+  "isRead": true,
+  "readAt": {
+    "$date": "2026-01-07T03:55:44.324Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-07T03:54:59.228Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T03:55:44.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695dd94833a772dab639bef6"
+  },
+  "conversation": {
+    "$oid": "693142788f01293764f5fb2c"
+  },
+  "sender": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "senderRole": "admin",
+  "text": "ban muon tu van gi",
+  "isRead": true,
+  "readAt": {
+    "$date": "2026-01-07T03:55:52.575Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-07T03:55:52.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T03:55:52.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695dd95233a772dab639befd"
+  },
+  "conversation": {
+    "$oid": "695dd938cb12d22af1f0e1e2"
+  },
+  "sender": "04248778-75ef-4ebc-a708-43f2696af8cf",
+  "senderRole": "user",
+  "text": "hello",
+  "isRead": false,
+  "readAt": null,
+  "createdAt": {
+    "$date": "2026-01-07T03:56:02.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T03:56:02.574Z"
+  },
+  "__v": 0
+}]

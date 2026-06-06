@@ -1,0 +1,42 @@
+services:
+  express-app:
+    build: .
+    container_name: express-app
+    restart: always
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+      - mysql
+    volumes:
+      - .:/app
+      - /app/node_modules
+  mongodb:
+    image: mongo:8
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+    volumes:
+      - mongodb_data:/data/db
+      - ./data_doana/nosql:/seed
+  mysql:
+    image: mysql:9
+    container_name: mysql
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Haiminhvip33@
+      MYSQL_DATABASE: doana
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./data_doana/sql:/docker-entrypoint-initdb.d
+volumes:
+  mongodb_data:
+  mysql_data:

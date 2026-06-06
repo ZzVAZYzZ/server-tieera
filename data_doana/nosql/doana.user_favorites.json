@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "695dc93d33a772dab639be91"
+  },
+  "user_id": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "product_id": "288367f5-fd95-4370-8971-5179beaae24e",
+  "name": "Nhẫn kim cương",
+  "material": "kim cuong",
+  "description": "làm bằng kim cương nguyên chất",
+  "color": "trang",
+  "stone_type": null,
+  "stone_shape": null,
+  "weight": 0,
+  "category_id": "3c40c725-8858-487e-9c4f-bc0fff68273d",
+  "price": 3000000,
+  "discount_price": 100000,
+  "stock_quantity": 14,
+  "status": "active",
+  "createdAt": {
+    "$date": "2026-01-07T02:47:25.865Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T02:47:25.865Z"
+  },
+  "__v": 0
+}]

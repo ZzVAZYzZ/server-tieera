@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "69312f258f01293764f5fb2a"
+  },
+  "user": "0b41bc6e-410b-4d70-8a67-0dcf529f81d0",
+  "admin": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T06:50:13.204Z"
+  },
+  "isClosed": false,
+  "unreadCountForAdmin": 0,
+  "unreadCountForUser": 0,
+  "updatedAt": {
+    "$date": "2025-12-18T12:09:55.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931374f8f01293764f5fb2b"
+  },
+  "user": "d5f2b7ef-7d24-4eb7-b961-9efcf9293714",
+  "admin": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T07:25:03.487Z"
+  },
+  "isClosed": false,
+  "unreadCountForAdmin": 0,
+  "unreadCountForUser": 0,
+  "updatedAt": {
+    "$date": "2026-01-07T02:53:15.257Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693142788f01293764f5fb2c"
+  },
+  "admin": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "user": "3291a54e-114b-4fdd-869e-85cb6ebe6459",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T08:12:40.715Z"
+  },
+  "isClosed": false,
+  "unreadCountForAdmin": 0,
+  "unreadCountForUser": 0,
+  "updatedAt": {
+    "$date": "2026-01-07T03:55:52.577Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695dd938cb12d22af1f0e1e2"
+  },
+  "admin": "399810b5-85e0-465d-9cd8-5dc79fc87bfa",
+  "user": "04248778-75ef-4ebc-a708-43f2696af8cf",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-07T03:55:36.816Z"
+  },
+  "isClosed": false,
+  "unreadCountForAdmin": 1,
+  "unreadCountForUser": 0,
+  "updatedAt": {
+    "$date": "2026-01-07T03:56:02.576Z"
+  }
+}]
