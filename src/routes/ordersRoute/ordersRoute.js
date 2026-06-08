@@ -8,7 +8,7 @@ const {
 } = require("../../controllers/orders.controller");
 const {
   validateAccessToken,
-} = require("../../middlewares/validateAccesstoken");
+} = require("../../middlewares/validateAccessToken");
 const { auth } = require("../../middlewares/auth");
 const router = express.Router();
 // cho role user  
