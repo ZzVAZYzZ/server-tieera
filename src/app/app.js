@@ -24,7 +24,8 @@ require("../middlewares/passport");
 // init middlewares
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:8000", "https://proadmission-maison-pseudoexperimentally.ngrok-free.dev"],
+    // origin: ["http://localhost:3000", "http://localhost:8000", "https://proadmission-maison-pseudoexperimentally.ngrok-free.dev"],
+    origin: ["https://tieera.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
