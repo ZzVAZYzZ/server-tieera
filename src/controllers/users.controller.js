@@ -360,7 +360,8 @@ const googleAuthCallback = async (req, res) => {
       sameSite: "None",
       // path: "/"
     });
-    res.redirect("http://localhost:3000/login");
+    // res.redirect("http://localhost:3000/login");
+    res.redirect("https://tieera.vercel.app/login");
     return res.status(200).json({
       message: "Login with Google successful",
       token,

@@ -4,7 +4,7 @@ const User = require("../models/users");
 
 //@param (accessToken, refreshToken, profile, done)
 //@result (user)
-// https://server-tieera.onrender.com
+
 passport.use(
   new GoogleStrategy(
     {
