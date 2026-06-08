@@ -44,7 +44,7 @@ app.use(useragent.express());
 // init database
 mysqlConnect();
 mongodbConnect();
-initRedis.connectRedis();
+// initRedis.connectRedis();
 
 // init routers
 app.use("/", router);
