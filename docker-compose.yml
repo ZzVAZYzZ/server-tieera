@@ -1,12 +1,28 @@
 services:
+<<<<<<< HEAD
   express-app:
     build: .
     container_name: express-app
     restart: always
+=======
+  app:
+    container_name: TIERRA_BE
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      mysql:
+        condition: service_healthy
+      mongodb:
+        condition: service_started
+      redis:
+        condition: service_started
+>>>>>>> 340173087d8917f22f1c39af073ed3a9f86b8c03
     ports:
       - "8000:8000"
     env_file:
       - .env
+<<<<<<< HEAD
     # depends_on:
     #   - mongodb
     #   - mysql
@@ -54,3 +70,47 @@ services:
 # volumes:
 #   mongodb_data:
 #   mysql_data:
+=======
+    restart: no
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: doana
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ../data_doana/sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: no
+  mongodb:
+    image: mongo:7
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: doana
+    volumes:
+      - mongo_data:/data/db
+      - ../data_doana/nosql:/docker-entrypoint-initdb.d
+    restart: no
+  
+  redis:
+    image: redis:7
+    container_name: redis_db
+    ports:
+      - "6379:6379"
+    restart: no
+  
+volumes:
+  mysql_data:
+  mongo_data:
+  redis_data:
+>>>>>>> 340173087d8917f22f1c39af073ed3a9f86b8c03

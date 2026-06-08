@@ -6,16 +6,21 @@ const nodemailer = require("nodemailer");
 const sendPaymentSuccessEmail = async (to, orderId, amount, currency) => {
   // ⚙️ Thiết lập transporter
   const transporter = nodemailer.createTransport({
-    service: "gmail", // hoặc SMTP riêng nếu bạn có domain email
+    host: 'smtp.gmail.com', // hoặc SMTP riêng nếu bạn có domain email
+    port: 465,
+    secure: true,
     auth: {
       user: process.env.EMAIL_USER, // ví dụ: 'yourshop@gmail.com'
       pass: process.env.EMAIL_PASS, // app password hoặc token
+    },
+    tls: {
+      rejectUnauthorized: false, // Tránh lỗi chứng chỉ bảo mật trên server deploy
     },
   });
 
   // 💌 Nội dung email
   const mailOptions = {
-    from: `"Doana shop" <${process.env.EMAIL_USER}>`,
+    from: `"Tieera shop" <${process.env.EMAIL_USER}>`,
     to,
     subject: "Xác nhận thanh toán thành công",
     html: `
@@ -53,7 +58,7 @@ const sendPaymentSuccessEmail = async (to, orderId, amount, currency) => {
 
         <!-- Button -->
         <div style="text-align: center; margin-top: 30px;">
-          <a href="http://localhost:3000/home" 
+          <a href="https://tieera.vercel.app/home" 
              style="background-color: #4f46e5; color: white; text-decoration: none; 
                     padding: 12px 28px; border-radius: 8px; font-size: 16px; 
                     display: inline-block; font-weight: 500;">

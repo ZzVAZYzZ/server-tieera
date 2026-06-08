@@ -13,6 +13,7 @@ const passport = require("passport");
 const cookieParser = require("cookie-parser");
 const useragent = require("express-useragent");
 const path = require("path");
+const initRedis = require('../databases/redis/redisConnect');
 
 // test
 
@@ -43,6 +44,7 @@ app.use(useragent.express());
 // init database
 mysqlConnect();
 mongodbConnect();
+initRedis.connectRedis();
 
 // init routers
 app.use("/", router);

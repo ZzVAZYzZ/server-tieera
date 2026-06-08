@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node modules
 node_modules
 npm-debug.log
@@ -47,3 +48,6 @@ uploads
 
 # Documentation
 README.md
+=======
+.env
+>>>>>>> 340173087d8917f22f1c39af073ed3a9f86b8c03

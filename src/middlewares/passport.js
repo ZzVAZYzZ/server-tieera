@@ -4,7 +4,6 @@ const User = require("../models/users");
 
 //@param (accessToken, refreshToken, profile, done)
 //@result (user)
-
 passport.use(
   new GoogleStrategy(
     {
