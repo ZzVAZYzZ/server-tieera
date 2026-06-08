@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { createPaymentIntent, paymentResult, QRScan } = require("../../controllers/payments.controller");
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const { QRValidateAccessToken } = require('../../middlewares/QRValidateAccessToken');
 router.route('/create-payment-intent').post(validateAccessToken, createPaymentIntent);
 

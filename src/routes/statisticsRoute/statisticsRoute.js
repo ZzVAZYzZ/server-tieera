@@ -1,5 +1,5 @@
 const express = require("express");
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const router = express.Router();
 const {auth} = require('../../middlewares/auth');
 const { getRevenueStatistics, getUnitSoldStatistics } = require("../../controllers/statistics.controller");

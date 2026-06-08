@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const { auth } = require("../../middlewares/auth");
 const { favoriteProduct, unFavoriteProduct, getUserFavorites } = require("../../controllers/favorite.controller");
 

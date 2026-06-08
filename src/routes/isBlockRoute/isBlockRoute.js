@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { blockUser, unblockUser, getBlockStatus, getAllBlockedUsers, } = require("../../controllers/isBlock.controller");
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const { auth } = require("../../middlewares/auth");
 
 // basic admin block feature

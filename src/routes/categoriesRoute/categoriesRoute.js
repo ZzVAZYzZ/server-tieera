@@ -1,6 +1,6 @@
 const express = require("express");
 const { createCategory, getCategories, getCategoryById, updateCategory, deleteCategory } = require("../../controllers/categories.controller");
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const router = express.Router();
 const {auth} = require('../../middlewares/auth');
 
