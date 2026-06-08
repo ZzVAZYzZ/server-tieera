@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { register, login,logout , current, googleAuthCallback, updatePassword, refresh, updateProfile, uploadAvatar, getAllUsersForChatting } = require("../../controllers/users.controller");
-const { validateAccessToken } = require("../../middlewares/validateAccesstoken");
+const { validateAccessToken } = require("../../middlewares/validateAccessToken");
 const passport = require("passport");
 const { validateRefreshToken } = require("../../middlewares/validateRefreshToken");
 const upload = require("../../middlewares/uploadImage");
