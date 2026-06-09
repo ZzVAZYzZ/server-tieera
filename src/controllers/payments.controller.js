@@ -109,19 +109,19 @@ const paymentResult = asyncHandler(async (req, res) => {
         );
 
         // ✅ Gửi email xác nhận thanh toán
-        try {
-          await sendPaymentSuccessEmail(
-            customerInfo.customer_email,
-            customerInfo.order_id,
-            fullPaymentIntent.amount,
-            fullPaymentIntent.currency
-          );
-          console.log(
-            `📧 Email xác nhận đã gửi tới ${customerInfo.customer_email}`
-          );
-        } catch (mailError) {
-          console.error("⚠️ Lỗi khi gửi email:", mailError.message);
-        }
+        // try {
+        //   await sendPaymentSuccessEmail(
+        //     customerInfo.customer_email,
+        //     customerInfo.order_id,
+        //     fullPaymentIntent.amount,
+        //     fullPaymentIntent.currency
+        //   );
+        //   console.log(
+        //     `📧 Email xác nhận đã gửi tới ${customerInfo.customer_email}`
+        //   );
+        // } catch (mailError) {
+        //   console.error("⚠️ Lỗi khi gửi email:", mailError.message);
+        // }
       }
     } else {
       console.log("⚠️ Thanh toán chưa thành công:", fullPaymentIntent.status);
@@ -208,18 +208,18 @@ const QRScan = asyncHandler(async (req, res) => {
       console.log(`✅ Order ${updatedOrder.order_id} updated to "paid"`);
 
     // Chỉ khi có userEmail mới gửi mail
-    if (userEmail !== "N/A") {
-      try {
-        await sendPaymentSuccessEmail(
-          userEmail,
-          orderData.order_id,
-          orderData.total_amount,
-          "VND"
-        );
-      } catch (mailErr) {
-        console.error("⚠️ Lỗi khi gửi mail:", mailErr.message);
-      }
-    }
+    // if (userEmail !== "N/A") {
+    //   try {
+    //     await sendPaymentSuccessEmail(
+    //       userEmail,
+    //       orderData.order_id,
+    //       orderData.total_amount,
+    //       "VND"
+    //     );
+    //   } catch (mailErr) {
+    //     console.error("⚠️ Lỗi khi gửi mail:", mailErr.message);
+    //   }
+    // }
 
     // Emit socket và render view thành công
     io.to(orderData.order_id).emit("paymentStatus", {
