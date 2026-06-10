@@ -22,7 +22,8 @@ const getUserIdFromRequest = (req) => {
 //@result { message, favorite }
 const favoriteProduct = asyncHandler(async (req, res) => {
   const user_id = getUserIdFromRequest(req);
-
+  
+  
   const { product_id } = req.body;
 
   if (!user_id || !product_id) {
@@ -53,6 +54,8 @@ const favoriteProduct = asyncHandler(async (req, res) => {
     });
   }
 
+  console.log(user_id);
+  console.log(product_id);
   try {
     const favorite = await Favorite.create({
       user_id,
