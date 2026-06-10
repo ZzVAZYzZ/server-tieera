@@ -39,7 +39,7 @@ async function findOrCreateSupportConversation(userId) {
 function initSocket(server) {
   const io = new Server(server, {
     cors: {
-      origin: ["http://localhost:3000"],
+      origin: ["http://localhost:3000","https://tieera.vercel.app"],
       credentials: true,
     },
   });
